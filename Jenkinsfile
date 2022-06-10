@@ -9,7 +9,7 @@ pipeline{
     stage('Build Image'){
       steps{
         script{
-          sh dockerImg = docker.build reg + ":$BUILD_NUMBER"
+          echo dockerImg = docker.build reg + ":$BUILD_NUMBER"
         }
       }
     }
