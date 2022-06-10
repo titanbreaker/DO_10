@@ -1,6 +1,6 @@
 pipeline{
   environment{
-    reg = "titanbreaker/DO_10"
+    reg = "amitloni/DO_10"
     regCre = "docker_id"
     dockerImg = ""
   }
