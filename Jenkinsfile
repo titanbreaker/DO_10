@@ -1,6 +1,5 @@
 pipeline{
   environment{
-    env.PATH = env.PATH + ";c:\\WindowsSystem32"
     reg = "titanbreaker/DO_10"
     regCre = "docker_id"
     dockerImg = ""
